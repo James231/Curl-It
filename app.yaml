@@ -1,0 +1,21 @@
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+handlers:
+# Request to https://yourprojectid.appspot.com/  returns the index.html file
+- url: /
+  script: index.php
+
+# Request to https://yourprojectid.appspot.com/index.html  returns the index.html file
+- url: /index\.php
+  script: index.php
+
+# Request to https://yourprojectid.appspot.com/index  returns the index.html file
+- url: /index
+  script: index.php
+
+# Request to any image, css or js file returns the file
+- url: /(.+\.(gif|png|jpg|css|js|eot|svg|ttf|woff|woff2|xml))$
+  static_files: \1
+  upload: .+\.(gif|png|jpg|css|js|eot|svg|ttf|woff|woff2|xml)$
