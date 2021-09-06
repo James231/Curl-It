@@ -30,5 +30,7 @@ You may download/use/distribute/modify/host/sell the code however you like. Ther
 
 ## Acknowledgements
 
-Inspiration came from a free service previously called Hurl.it. Hurl.it is open source and you can find the source code here: https://github.com/twilio/hurl  
+Inspiration came from a free service previously called Hurl.it. Hurl.it is open source and you can find the source code here: [https://github.com/twilio/hurl2](https://github.com/twilio/hurl2) 
 It was written in Ruby but is no longer being hosted anywhere online (which is why I made this).
+
+Update: The roles have reversed now. After a sequence of acquisitions [Hurl.it](https://www.hurlit.com/) is back online. And I'm no longer maintaining this tool, nor attempting to keep the site up. 
